@@ -35,6 +35,7 @@ export {CarbonCompiler, CarbonExplorerCompiler} from './carbon.js';
 export {Cc65Compiler} from './cc65.js';
 export {CerberusCompiler} from './cerberus.js';
 export {CircleCompiler} from './circle.js';
+export {AliveCompiler} from './alive.js';
 export {CireCompiler} from './cire.js';
 export {CIRCTCompiler} from './circt.js';
 export {CL430Compiler} from './cl430.js';
