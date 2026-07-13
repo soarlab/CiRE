@@ -22,12 +22,12 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-import {BaseCompiler} from '../base-compiler.js';
-import {CompilationEnvironment} from '../compilation-env.js';
 import type {CompilationResult} from '../../types/compilation/compilation.interfaces.js';
 import {PreliminaryCompilerInfo} from '../../types/compiler.interfaces.js';
-import {ClangParser} from './argument-parsers.js';
+import {BaseCompiler} from '../base-compiler.js';
+import {CompilationEnvironment} from '../compilation-env.js';
 import {splitLines} from '../utils.js';
+import {ClangParser} from './argument-parsers.js';
 
 export class CireCompiler extends BaseCompiler {
     static get key() {
